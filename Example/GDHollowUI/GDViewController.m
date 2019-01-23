@@ -29,7 +29,7 @@
     
     [_button setTitle:@"Button Hollow" forState:UIControlStateNormal];
     
-    [_button setAttributedTitle:[[NSAttributedString alloc] initWithString:@"Hollow Button" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor}] forState:UIControlStateNormal];
+//    [_button setAttributedTitle:[[NSAttributedString alloc] initWithString:@"Hollow Button" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor}] forState:UIControlStateNormal];
     
     _label.text = @"Label Hollow";
 }
