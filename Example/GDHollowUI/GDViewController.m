@@ -7,8 +7,13 @@
 //
 
 #import "GDViewController.h"
+#import <GDHollowUI/GDHollowButton.h>
+#import <GDHollowUI/GDHollowLabel.h>
 
 @interface GDViewController ()
+
+@property (weak, nonatomic) IBOutlet GDHollowButton *button;
+@property (weak, nonatomic) IBOutlet GDHollowLabel *label;
 
 @end
 
@@ -17,7 +22,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    _button.titleLabel.adjustsFontSizeToFitWidth = YES;
+    _button.titleLabel.minimumScaleFactor = 0.1;
+    _button.titleLabel.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+    
+    [_button setTitle:@"Button Hollow" forState:UIControlStateNormal];
+    
+    [_button setAttributedTitle:[[NSAttributedString alloc] initWithString:@"Hollow Button" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor}] forState:UIControlStateNormal];
+    
+    _label.text = @"Label Hollow";
 }
 
 - (void)didReceiveMemoryWarning

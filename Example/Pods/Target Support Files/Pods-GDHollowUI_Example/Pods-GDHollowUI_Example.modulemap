@@ -1,0 +1,6 @@
+framework module Pods_GDHollowUI_Example {
+  umbrella header "Pods-GDHollowUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

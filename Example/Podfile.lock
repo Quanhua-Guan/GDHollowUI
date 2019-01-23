@@ -1,0 +1,23 @@
+PODS:
+  - GDHollowUI (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - GDHollowUI (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/cocoapods/specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  GDHollowUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDHollowUI: 1bebe7e8d0fd891363d056b9243cc3e9dc51fbbb
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 261b74e47632def11c5bfe1b25b95c9bbe5739a5
+
+COCOAPODS: 1.5.3

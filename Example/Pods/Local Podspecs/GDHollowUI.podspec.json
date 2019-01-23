@@ -1,0 +1,22 @@
+{
+  "name": "GDHollowUI",
+  "version": "0.1.0",
+  "summary": "A short description of GDHollowUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xinmuheart@163.com/GDHollowUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xinmuheart@163.com": "yuyuan@meiyaapp.com"
+  },
+  "source": {
+    "git": "https://github.com/xinmuheart@163.com/GDHollowUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GDHollowUI/Classes/**/*"
+}

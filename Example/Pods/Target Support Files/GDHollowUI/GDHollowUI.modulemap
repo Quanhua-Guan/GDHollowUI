@@ -1,0 +1,6 @@
+framework module GDHollowUI {
+  umbrella header "GDHollowUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
