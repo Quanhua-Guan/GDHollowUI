@@ -1,0 +1,18 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+use_frameworks!
+
+# Disable sending stats
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+platform :ios, '8.0'
+
+target 'GDHollowUI_Example' do
+  pod 'GDHollowUI', :path => '../'
+
+  target 'GDHollowUI_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
