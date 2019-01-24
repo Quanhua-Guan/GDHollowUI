@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GDHollowUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GDHollowUI.'
+  s.summary          = 'Hollow UI'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  镂空UI, 包含镂空按钮(GDHollowButton), 镂空标签(GDHollowLabel) [稿定科技(厦门)]
                        DESC
 
-  s.homepage         = 'https://github.com/xinmuheart@163.com/GDHollowUI'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Quanhua-Guan/GDHollowUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xinmuheart@163.com' => 'yuyuan@meiyaapp.com' }
-  s.source           = { :git => 'https://github.com/xinmuheart@163.com/GDHollowUI.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { '宇园' => 'xinmuheart@163.com' }
+  s.source           = { :git => 'https://github.com/Quanhua-Guan/GDHollowUI.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
