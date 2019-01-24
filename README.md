@@ -7,6 +7,8 @@
 
 ## Example
 
+![image](https://github.com/Quanhua-Guan/GDHollowUI/blob/master/Example/Snapshots/1.PNG?raw=true)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
