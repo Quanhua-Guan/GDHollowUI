@@ -31,6 +31,24 @@
     _button.titleAlignment = NSTextAlignmentRight;
     
     _label.text = @"Label Hollow";
+    
+    // mothin effect
+    NSNumber *min = @(-30.0);
+    NSNumber *max = @(30.0);
+    
+    UIInterpolatingMotionEffect *xMotion = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"layer.transform.translation.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+    xMotion.minimumRelativeValue = min;
+    xMotion.maximumRelativeValue = max;
+    
+    UIInterpolatingMotionEffect *yMotion = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"layer.transform.translation.y" type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+    yMotion.minimumRelativeValue = min;
+    yMotion.maximumRelativeValue = max;
+    
+    UIMotionEffectGroup *motionEffectGroup = [[UIMotionEffectGroup alloc] init];
+    motionEffectGroup.motionEffects = @[xMotion, yMotion];
+    
+    [_button addMotionEffect:motionEffectGroup];
+    [_label addMotionEffect:motionEffectGroup];
 }
 
 - (void)didReceiveMemoryWarning
