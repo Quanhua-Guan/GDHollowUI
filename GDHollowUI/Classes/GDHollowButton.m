@@ -54,8 +54,16 @@
 }
 
 - (void)setAttributedTitle:(NSAttributedString *)title forState:(UIControlState)state {
-    [super setAttributedTitle:title forState:state];
+    [super setTitle:title.string forState:state];
     [self setNeedsDisplay];
+}
+
+- (void)setTitleAlignment:(NSTextAlignment)titleAlignment {
+    self.titleLabel.textAlignment = titleAlignment;
+}
+
+- (NSTextAlignment)titleAlignment {
+    return self.titleLabel.textAlignment;
 }
 
 - (void)drawRect:(CGRect)rect
@@ -81,7 +89,6 @@
     label.hidden = NO;
     label.alpha = 1;
     label.frame = self.bounds;
-    label.textAlignment = NSTextAlignmentCenter;
     label.backgroundColor = [UIColor blackColor];
     
     [label.layer drawInContext:context];
