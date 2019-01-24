@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/xinmuheart@163.com/GDHollowUI.svg?style=flat)](https://travis-ci.org/xinmuheart@163.com/GDHollowUI)
 [![Version](https://img.shields.io/cocoapods/v/GDHollowUI.svg?style=flat)](https://cocoapods.org/pods/GDHollowUI)
-[![License](https://img.shields.io/cocoapods/l/GDHollowUI.svg?style=flat)](https://cocoapods.org/pods/GDHollowUI)
+[![License](https://img.shields.io/cocoapods/l/GDHollowUI.svg?style=flat)](https://raw.githubusercontent.com/Quanhua-Guan/GDHollowUI/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/GDHollowUI.svg?style=flat)](https://cocoapods.org/pods/GDHollowUI)
 
 ## Example
