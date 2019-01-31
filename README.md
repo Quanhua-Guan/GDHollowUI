@@ -29,7 +29,7 @@ pod 'GDHollowUI'
 ## Author
 
 宇园: xinmuheart@163.com, yuyuan@gaoding.com 
-from 稿定（厦门）科技有限公司
+from [稿定（厦门）科技有限公司](https://www.gaoding.com/)
 
 ## License
 
