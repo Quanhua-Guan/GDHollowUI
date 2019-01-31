@@ -1,5 +1,6 @@
 # GDHollowUI
 镂空文字特效UI, 包括GDHollowButton(subclass of UIButton), GDHollowLabel(subclass of UILabel).
+
 Hollow effect UI, include GDHollowButton(subclass of UIButton) and GDHollowLabel(subclass of UILabel).
 
 [![CI Status](https://img.shields.io/travis/xinmuheart@163.com/GDHollowUI.svg?style=flat)](https://travis-ci.org/xinmuheart@163.com/GDHollowUI)
