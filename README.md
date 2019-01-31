@@ -1,4 +1,6 @@
 # GDHollowUI
+镂空文字特效UI, 包括GDHollowButton(subclass of UIButton), GDHollowLabel(subclass of UILabel).
+Hollow effect UI, include GDHollowButton(subclass of UIButton) and GDHollowLabel(subclass of UILabel).
 
 [![CI Status](https://img.shields.io/travis/xinmuheart@163.com/GDHollowUI.svg?style=flat)](https://travis-ci.org/xinmuheart@163.com/GDHollowUI)
 [![Version](https://img.shields.io/cocoapods/v/GDHollowUI.svg?style=flat)](https://cocoapods.org/pods/GDHollowUI)
@@ -12,6 +14,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 8.0+, Xcode 10+
 
 ## Installation
 
@@ -24,7 +27,8 @@ pod 'GDHollowUI'
 
 ## Author
 
-xinmuheart@163.com, yuyuan@meiyaapp.com
+宇园: xinmuheart@163.com, yuyuan@gaoding.com 
+from 稿定（厦门）科技有限公司
 
 ## License
 
